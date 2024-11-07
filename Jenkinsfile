@@ -9,6 +9,7 @@ pipeline {
             steps {
                 echo "Building.."
                 echo "New Line"
+                echo "New Line 2"
             }
         }
         stage('Test') {
